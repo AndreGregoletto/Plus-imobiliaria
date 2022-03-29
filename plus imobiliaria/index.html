@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plus Imovel</title>        
+        <link href="doccss.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body class="body">
+        <header> <!--Menu-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div><!--Bunner-->
+            <img src="image/bunner.png" class="img-fluid" alt="bunner">
+        </div>
+
+        <form class="pt-5 form-search-home"><!--Form-->
+            <div class="container">
+                <div class="mb-4">Procure sua futura propriedade!</div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-2"><!--Typy of property-->
+                        <div class="mb-2">Tipo de propriedades</div>
+                        <select>
+                            <option selected disabled value="">Selecione</option>
+                            <option value="apartamento">Apartmento</option>
+                            <option value="casa">Casa</option>
+                            <option value="terreno">Terreno</option>
+                            <option value="garagem">Garagem</option>
+                            <option value="sala">Sala</option>
+                            <option value="pavilhao/galpao">Pavilhão / Galpão</option>
+                            <option value="area">Área</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-md-2"><!-- Max cost-->
+                        <div class="mb-2">Custo Máximo</div>
+                        <input type="text" class="w-100 p-3" name="maxcust" id="maxcust" placeholder="$0,00">
+                    </div>
+                    <div class="col-sm-6 col-md-2"><!--Minimun cost-->
+                        <div class="mb-2">Custo Mínimo</div>
+                        <input type="text" class="w-100 p-3" name="minimuncust" id="minimuncust" placeholder="$0,00">
+                    </div>
+                    <div class="col-sm-6 col-md-4"><!--City-->
+                        <div class="mb-2">Escolha a cidade</div>
+                        <select>
+                            <option selected disabled value="">Cidade</option>
+                            <option value="sao-paulo"> São Paulo</option>
+                            <option value="guarulhos">Guarulhos</option>
+                            <option value="osasco">Osásco</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2"><!--Button-->
+                        <br><input type="button" class="btn-search-home" value="Pesquisar">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <h2 class="title-started-cards">Propriedades Futuras</h2> <!--Title properties-->
+
+        <div class="d-flex justify-content-center cards-positions-properties" >
+            <ul class="centerUL"> <!--Featured Properties-->
+                <li class="cards-size-properties"> <!-- Image 1 -->
+                    <img src="image/imagem1.png" alt="imagem2" width="295" height="221.44">
+                    <br>
+                    <div class="cards-title-properties">Apartmento</div>
+                    <div class="cards-subtitule-properties">Centro - Tubarão/SC</div>
+                    <ul class="cards-margin-value">
+                        <li class="cards-value-properties">$399.000,00</li>
+                        <li class="cards-forsale">A Venda</li>
+                    </ul>
+                    <ul class="cards-position-properties">
+                        <li class="mt-2"> &#x1F3E8; 3 dormitorios, sendo 1 suite </li><br>
+                        <li class="mt-2"> &#128663; 1 Garagem</li><br>
+                        <li class="mt-2"> &#x2B1C; 94,50 m² (Área privativa)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <footer><!--Footer-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3"><!--Logo-->
+                        <a href="index.html"><img src="image/Sibele.png" class="title-footer img-fluid"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 footer-space-menu"><!--menu-->
+                        <p class="title-footer">Menu</p>
+                        <div class="font-footer">
+                            <a href="index.html"><p>Home</p> </a>
+                            <a href="about.html"><p>Sobre</p></a>
+                            <a href="contact.html"><p>Contato</p></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3  footer-space-contact"><!--Contact-->
+                        <p class="title-footer">Contato</p>
+                        <div class="font-footer">
+                            <p>Ver e-mail</p>
+                            <p>(XX) XXXXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="col-sm-4 col-md-2 footer-space-social"><!--Social Media-->
+                            <p class="title-footer ">Social</p>
+                            <ul class="size-footer-social">
+                                <li><a href="https://pt-br.facebook.com/"><img src="image/logos/face.png" class="footer-space"></a></li>
+                                <li><a href="https://www.instagram.com/"><img src="image/logos/insta.png" class="footer-space"></a></li>
+                                <li><a href="https://www.youtube.com/"><img src="image/logos/youtube.png" class="footer-space"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-fixed bottom-0 end-0">
+			    <a href=""><img src="image/logos/whats.png" alt=""></a>
+		    </div> 
+        </footer>
+    </body>
+</html>

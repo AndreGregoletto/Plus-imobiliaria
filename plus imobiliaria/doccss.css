@@ -1,0 +1,278 @@
+html {
+    line-height: 1.15em;
+    letter-spacing: 0.3px;
+    word-spacing: -0.75px;
+    font-family: Montserrat, "Trebuchet MS", serif;
+}
+
+.body{
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+}
+/* Edit for Navbar */
+.navbar-brand{ /* color of string in navbar */
+    background-color: #f8f9fa!important;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white!important;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+/* Finish Navbar */
+/* Edit for Form */
+.form-search-home{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+select, input{
+    width: 100%;
+    height: 40px;
+}
+
+.btn-search-home{
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+/* Finish Form */
+/* Edit Featured Properties */
+.title-started-cards {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cards-positions-properties {
+    width: 100%;
+    text-align: center; /* centralizei */
+}
+
+.cards-size-properties{
+    width: 295px;
+    height: 442.88px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px ;
+}
+
+.cards-title-properties{
+    margin-top: 16px;
+    font-weight: bold;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 14px;
+    text-indent: 1em;
+    text-align: left;
+}
+
+.cards-subtitule-properties{
+    margin-top: 3px;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 14px;
+    text-indent: 1em;
+    text-align: left;
+}
+
+.cards-value-properties{
+    font-weight: bold;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    text-align: left;
+    color: #18B6B4;
+    text-align: left;
+    margin-left: -5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cards-forsale{
+    font-weight: bold;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background-color: #18B6B4;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: -10px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.cards-margin-value {
+    margin: 20px 0px 30px 30px;
+}
+
+.cards-position-properties {
+    margin-top: -10px;
+    margin-left: -1em;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Finish Featured Properties */
+
+/* Edit Footer */
+footer{
+    background-color: #1A1A1A;
+    width: 100%;
+    color: white;
+}
+
+.title-footer{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.font-footer > p {
+    font-size: 13px;
+    margin-top: -10px;
+    font-family: Montserrat, "Trebuchet MS", serif;
+}
+
+.font-footer > a {
+    font-size: 13px;
+    margin-top: -10px;
+    font-family: Montserrat, "Trebuchet MS", serif;
+    text-decoration: none;
+    color: white;
+}
+
+.font-footer > a:hover{
+    color: #5c5a5a;
+}
+
+.footer-space-menu{
+    padding: 0px 30px 0px 30px;
+    text-indent: 10pt;
+}
+
+.footer-space-contact{
+    padding: 0px 30px 0px 30px;
+    text-indent: 10pt;
+}
+
+.footer-space-social{
+    display: inline;
+}
+
+.size-footer-social{
+    margin-left: -35px;
+}
+
+/* Finish Footer */
+
+/* Edit About */
+.about-image{
+    float: right;
+    margin-bottom: 50px;
+}
+
+.title-about{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitle-about{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.text-about{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 12px;
+}
+/* finish About */
+/* Edit contact */
+
+.title-form-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label-form-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.input-form-conctact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+}
+
+.textarea-form-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-form-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.margin-description-contact{
+    padding-left: 20px;
+}
+
+.title-description-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-description-contact > p{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    margin: 10px 0px 10px;
+}
+
+.btn-description-contact{
+    font-family: Montserrat, "Trebuchet MS", serif;
+    font-size: 16px;
+    width: auto;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Finish contact*/
